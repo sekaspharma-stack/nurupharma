@@ -269,3 +269,4 @@ CREATE INDEX IF NOT EXISTS idx_ticket_lignes_ticket ON ticket_lignes (ticket_id)
 CREATE INDEX IF NOT EXISTS idx_mouvements_created ON mouvements_stock (created_at);
 CREATE INDEX IF NOT EXISTS idx_mouvements_produit ON mouvements_stock (produit_id);
 CREATE INDEX IF NOT EXISTS idx_controles_inventaire ON controles_inventaire (inventaire_id);
+
